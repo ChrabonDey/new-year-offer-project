@@ -394,3 +394,146 @@ margin-bottom:22px;
     width:100%;
     height:100%;
 }
+/* news letter style */
+.news-letter-container{
+    position: relative;
+    width: 1320px;
+height: 616px;
+
+margin-bottom: 120px;
+border-radius: 16px;
+
+background: rgba(255, 0, 0, 0.05);
+
+flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.news-letter-container h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+margin-bottom:22px;
+text-transform: capitalize;
+}
+.news-letter-container p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 48px;
+}
+.news-letter-container .input input{
+    
+width: 648px;
+height: 72px;
+border-radius: 50px;
+padding: 30px;
+border: none;
+
+background: rgb(255, 255, 255);
+
+}
+.subscribe{
+    width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+
+background: rgb(255, 0, 0);
+position: absolute;
+top:72.5%;
+left:58.8%;
+padding-top: 25px;
+
+}
+.subscribe h5{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+
+text-transform: capitalize;
+}
+.news-letter-container .input input :placeholder-shown{
+    color: rgba(7, 2, 17, 0.3);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer-container{
+    width: 1518px;
+height: 600px;
+border: 1px solid rgba(255, 255, 255, 0.15);
+background: rgb(7, 2, 17);
+color:white
+
+
+
+}
+.first-scetion-footer{
+    display: flex;
+    justify-content: space-between;
+    
+    width:80%;
+    margin:0 auto;
+    margin-top:120px;
+    margin-bottom:50px;
+}
+.hr{
+    width:80%;
+    margin:0 auto;
+    margin-bottom: 49px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.social-icons{
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    
+   justify-content: center;
+    
+    gap: 24px;
+    margin-bottom: 49px;
+}
+.social-icons img{
+    width: 62.5px;
+height: 62.5px;
+}
+.second-scetion-footer{
+    display: flex;
+    justify-content: space-between;
+    
+    width:80%;
+    margin:0 auto;
+    margin-top:50px;
+}
+.first-scetion-footer h5{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+
+}
+.second-scetion-footer h5{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+
+
+}
+
